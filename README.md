@@ -7,7 +7,7 @@
 
 #Opis sistema
 
-Kino e-Cinema Star je osnovano 2016. godine i kao takvo je najsavremenije kino u Sarajevo i u cijeloj Bosni i Hercegovini. Drži korak sa novim tehnologijama u svijetu filma, pristupa korisnicima, projekcije filma i nabavljanja filmova. Takoðer, fokusira se i na afirmisanju domaæih filmova i domaæih glumaca.
+**Kino e-Cinema Star** je osnovano 2016. godine i kao takvo je najsavremenije kino u Sarajevo i u cijeloj Bosni i Hercegovini. Drži korak sa novim tehnologijama u svijetu filma, pristupa korisnicima, projekcije filma i nabavljanja filmova. Takoðer, fokusira se i na afirmisanju domaæih filmova i domaæih glumaca.
 
 Vlasnik kina želi da modernizuje i olakša kupovinu karata, kao i cjelokupan doživljaj kina korisnicima. Vlasnik kina - klijent želi da korisnici kina imaju 24/7 pristup preko interneta.
 Nudi mnoge usluge, kao što su projekcije filmova, online kupovina karata, online rezervacija karata, pregled filmova koje je korisnik pogledao, predlaganje gledanja filmova istog ili sliènog žanra onim filmovima koje korisnik inaèe gleda. On želi interfejs pomoæu kojeg bi klijentima bila omoguæena kupovina karata ili naruèivanje istih.
