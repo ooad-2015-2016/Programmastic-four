@@ -20,18 +20,18 @@ Prilikom kupovine karata online, korisnik se registruje na aplikaciju kina (ukol
 
 Klijentu su dostupni svi podaci o aplikaciji i naèinu kupovine.
 
-##Uposlenik
+###Uposlenik
 
 Uposlenik kina nalazi se na šalteru. Vodi raèuna o kartama koje se izdaju. Ukoliko korisnik ima neki popust, uposlenik ga obraèunava. Takoðer, vodi raèuna i o tome da li je hrana naruèena ili ne.
 
 
 
-##Plaæanje
+###Plaæanje
  
 Plaæanje se vrši na šalteru kina. Rezervacije se mogu vršiti u aplikaciji, ali plaæanje ide iskljuèivo gotovinom na šalteru kina. Ukoliko je karta rezervisana mora se doæi minimalno 45 minuta prije filma da bi se kupila karta, u suprotnom rezervacija se poništava.
 
 
-##Realizacija kupovine
+###Realizacija kupovine
 
 U sluèaju da je korisnik više od pola godine aktivan u aplikaciji kina, tj. da više od pola godine redovno ide u kino, može postati èlan kluba “Ljubitelji filma” i time ostvaruje popust od 5% pri svakoj kupovini karte. Ovaj popust se dodaje na popust ukoliko je u pitanju student ili ukoliko je osoba korisnik aplikacije.
 Online kupovina, koju æemo kasnije specificirati.
@@ -56,6 +56,6 @@ Rezervacija 3D naoèala ukoliko je u pitanju 3D film, kao i poruèivanje hrane, ko
 
 #Akteri
 
-Klijent (vlasnik kina)
-Korisnici 
-Uposlenik
+* Klijent (vlasnik kina)
+* Korisnici 
+* Uposlenik
