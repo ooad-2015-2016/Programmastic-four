@@ -18,12 +18,14 @@ Prilikom kupovine karata u kinu, korisnik se obraæa uposleniku kina. Da bi regis
 
 Prilikom kupovine karata online, korisnik se registruje na aplikaciju kina (ukoliko to nije prethodno uradio). U svom profilu ima moguænost vidjeti koji su filmovi trenutno aktuelni, kao i vrijeme projekcija, cijenu karata, moguænost popusta i moguænost online kupovine. Online kupovina ide preko maestro ili master card kartice. Korisniku se može ponuditi i odvojena lista filmova koje možda želi da gleda, ukoliko je prethodno bio registrovan. Lista se kreira na osnovu fimova koje je korisnik prethodno gledao. 
 
-Klijentu su dostupni svi podaci o aplikaciji i naèinu kupovine.
+###Klijent
+
+Klijent je vlasnik kina. On ima poseban admin account na aplikaciji i pristupa svim izmjenama aplikacije. Klijentu su dostupni svi podaci o aplikaciji i naèinu kupovine.
+
 
 ###Uposlenik
 
-Uposlenik kina nalazi se na šalteru. Vodi raèuna o kartama koje se izdaju. Ukoliko korisnik ima neki popust, uposlenik ga obraèunava. Takoðer, vodi raèuna i o tome da li je hrana naruèena ili ne.
-
+Uposlenik kina nalazi se na šalteru. Ima uposlenik account na aplikaciji. Može vršiti izmjene u aplikaciji kao što su ažuriranje filmova, voðenje evidencija o rezervaciji, prodanim kartama, zauzetim mjestima itd. Na šalteru ukoliko korisnik ima neki popust, uposlenik ga obraèunava. Takoðer, vodi raèuna i o tome da li je hrana naruèena ili ne.
 
 
 ###Plaæanje
@@ -36,9 +38,12 @@ Plaæanje se vrši na šalteru kina. Rezervacije se mogu vršiti u aplikaciji, ali p
 U sluèaju da je korisnik više od pola godine aktivan u aplikaciji kina, tj. da više od pola godine redovno ide u kino, može postati èlan kluba “Ljubitelji filma” i time ostvaruje popust od 5% pri svakoj kupovini karte. Ovaj popust se dodaje na popust ukoliko je u pitanju student ili ukoliko je osoba korisnik aplikacije.
 Online kupovina, koju æemo kasnije specificirati.
 
-##Realizacija ostalih usluga
+
+###Realizacija ostalih usluga
 
 Rezervacija 3D naoèala ukoliko je u pitanju 3D film, kao i poruèivanje hrane, koja æe èekati servirana na mjestu koje je korisnik platio.
+Skeniranje QR koda. Nakon skeniranja, aplikacija izbaci sve informacije o filmu, kao što su trailer, glumci i slièno.
+
 
 #Funkcionalnosti
 
@@ -53,9 +58,14 @@ Rezervacija 3D naoèala ukoliko je u pitanju 3D film, kao i poruèivanje hrane, ko
 * Moguænost laganog pristupa svim korisnicima informacijama o kinu, radu, kontakt kao i FAQ o kinu
 * Registracija korisnika u klub Ljubitelji filma i time omoguæavanje popusta
 * Promocija domaæih filmova, neke promo cijene 
+* Korištenje mastercard simplify za online transakcije (eksterni servis)
+* RFID reader za poništavanje karata (eksterni ureðaj)
+* Skeniranje QR koda
 
 #Akteri
 
 * Klijent (vlasnik kina)
 * Korisnici 
 * Uposlenik
+
+
