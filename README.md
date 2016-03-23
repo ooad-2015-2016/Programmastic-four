@@ -14,9 +14,9 @@ Nudi mnoge usluge, kao što su projekcije filmova, online kupovina karata, online
 
 #Procesi
 
-Prilikom kupovine karata u kinu, korisnik se obraæa uposleniku kina. Da bi registracija kupovina karata išla i preko interneta, uposlenik se loguje na stranicu kina kao admin. U admin panelu se nalazi sve što uposleniku treba, rezervacije koje su napravljene, odabir filmova, vrijeme projekcija, cijene karata, moguænost popusta. Najprije se gleda rezervacija, jer ukoliko je korisnik izvršio rezervaciju nema pravo popusta na film. Ukoliko je bila rezervacija, film je veæ izabran, pa ide samo obraèun cijene i izdavanje karte. Ukoliko nije bila rezervacija ide izbor filma, kao i popust. Popusti su u sluèaju studenata kao korisnika, korisnika koji je logovan na kino aplikaciju. Prvo se gleda izbor mjesta, tj. dostupnost kupovine karte ili ne. Ukoliko ima dovoljno mjesta, gleda se da li postoji neki popust. Nakon toga cijena se obraèunava i izdaje karta. 
+Prilikom kupovine karata u kinu, korisnik se obraæa uposleniku kina. Da bi registracija kupovina karata išla aplikacija, uposlenik se loguje na stranicu kina kao admin. U admin panelu se nalazi sve što uposleniku treba, odabir filmova, vrijeme projekcija, cijene karata, moguænost popusta. Najprije se gleda da li je korisnik uplatio preko aplikacije. Ukoliko jeste ide samo izdavanje karte. Ukoliko nije bilo plaæanja preko aplikacije, ide izbor filma, kao i popust. Popusti su u sluèaju studenata kao korisnika, korisnika koji je logovan na kino aplikaciju. Prvo se gleda izbor mjesta, tj. dostupnost kupovine karte ili ne. Ukoliko ima dovoljno mjesta, gleda se da li postoji neki popust. Nakon toga cijena se obraèunava i izdaje karta. 
 
-Prilikom kupovine karata online, korisnik se registruje na aplikaciju kina (ukoliko to nije prethodno uradio). U svom profilu ima moguænost vidjeti koji su filmovi trenutno aktuelni, kao i vrijeme projekcija, cijenu karata, moguænost popusta i moguænost online kupovine. Online kupovina ide preko maestro ili master card kartice. Korisniku se može ponuditi i odvojena lista filmova koje možda želi da gleda, ukoliko je prethodno bio registrovan. Lista se kreira na osnovu fimova koje je korisnik prethodno gledao. 
+Prilikom kupovine karata putem aplikacije, korisnik se registruje na aplikaciju kina (ukoliko to nije prethodno uradio). U svom profilu ima moguænost vidjeti koji su filmovi trenutno aktuelni, kao i vrijeme projekcija, cijenu karata, moguænost popusta i moguænost online kupovine. Online kupovina ide preko maestro ili master card kartice. Korisniku se može ponuditi i odvojena lista filmova koje možda želi da gleda, ukoliko je prethodno bio registrovan. Lista se kreira na osnovu fimova koje je korisnik prethodno gledao. 
 
 ###Klijent
 
@@ -30,7 +30,7 @@ Uposlenik kina nalazi se na šalteru. Ima uposlenik account na aplikaciji. Može v
 
 ###Plaæanje
  
-Plaæanje se vrši na šalteru kina. Rezervacije se mogu vršiti u aplikaciji, ali plaæanje ide iskljuèivo gotovinom na šalteru kina. Ukoliko je karta rezervisana mora se doæi minimalno 45 minuta prije filma da bi se kupila karta, u suprotnom rezervacija se poništava.
+Plaæanje se vrši na šalteru kina ili online, tj. preko aplikacije. Rezervacije se mogu vršiti u aplikaciji i ukoliko je izvšena rezervacija, dobije se popust preko aplikacije i plaæa online. Ukoliko nije došlo do online transakcije, karta se kupuje na šalteru, gdje uposlenik obraèunava cijenu i izdaje kartu. U sluèaju kupovine karte direktno na šalteru, popust je samo ukoliko je osoba student.
 
 
 ###Realizacija kupovine
