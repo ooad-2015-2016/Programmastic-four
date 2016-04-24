@@ -1,0 +1,29 @@
+1. Princip pojedinaène odgovornosti ( eng. Single Responsibility Principle-SRP) glasi:
+	KLASA BI TREBALA IMATI SAMO JEDAN RAZLOG ZA PROMJENU.
+
+U projektu e-Cinema Star sve klase su odvojene, svaka ima odvojene zadatke i time se sprijeèavaju zavisne promjene unutar klasa. Svaka klasa ima samo jedno zaduženje.
+
+
+2. Otvoreno zatvoren princip ( eng. Open Closed Principle-OCP) glasi:
+	ENTITETI SOFTVERA (KLASE, MODULI, FUNKCIJE) TREBALI BI BITI OTVORENI ZA NADOGRADNJU, ALI ZATVORENI ZA MODIFIKACIJE.
+
+Princip je zadovoljen, jer klase se mogu nadograditi bez modifikacije drugih klasa. 
+
+
+3. Liskov princip zamjene (eng. Liskov Substitution Principle-LSP) glasi:
+	PODTIPOVI MORAJU BITI ZAMJENJIVI NJIHOVIM OSNOVNIM TIPOVIMA.
+
+Klase naslijeðene iz klase Korisnik imaju iste atribute, te se mogu zamijeniti elementima klase Korisnik. 
+Elementi klase Korisnik sadrže sve potrebne metode, koje mogu biti iskorištene od strane naslijeðenih klasa.
+
+
+4. Princip inverzije ovisnosti (eng. Dependency Inversion Principle-DIP) glasi:
+	A. MODULI VISOKOG NIVOA NE BI TREBALI OVISITI OD MODULA NISKOG NIVOA. OBA BI TREBALO DA OVISE OD APSTRAKCIJA.
+	B. MODULI NE BI TREBALI OVISITI OD DETALJA. DETALJI BI TREBALI BITI OVISNI OD APSTRAKCIJA.
+
+U sluèaju e-Cinema Star, osnovna klasa Korisnik je apstraktna i ostale zavise od nje. Zbog toga je princip zadovoljen i sistem æe biti manje osjetljiv na promjene.
+
+5. Princip izoliranja interfejsa ( eng. Interface Segregation Principle-ISP) glasi:
+	KLIJENTI NE TREBA DA OVISE O METODAMA KOJE NEÆE UPOTREBLJAVATI.
+
+Interfejs IPlacanje se brine o plaæanju. Uveden je zbog klase Rezervacija i to je osnovni smisao interfejsa u ovom sluèaju. 
