@@ -1,7 +1,8 @@
 1. Princip pojedinaène odgovornosti ( eng. Single Responsibility Principle-SRP) glasi:
 	KLASA BI TREBALA IMATI SAMO JEDAN RAZLOG ZA PROMJENU.
 
-U projektu e-Cinema Star sve klase su odvojene, svaka ima odvojene zadatke i time se sprijeèavaju zavisne promjene unutar klasa. Svaka klasa ima samo jedno zaduženje.
+U projektu e-Cinema Star sve klase su odvojene, svaka ima odvojene zadatke i time se sprijeèavaju zavisne promjene unutar klasa. 
+Svaka klasa ima samo jedno zaduženje.
 
 
 2. Otvoreno zatvoren princip ( eng. Open Closed Principle-OCP) glasi:
@@ -21,7 +22,8 @@ Elementi klase Korisnik sadrže sve potrebne metode, koje mogu biti iskorištene o
 	A. MODULI VISOKOG NIVOA NE BI TREBALI OVISITI OD MODULA NISKOG NIVOA. OBA BI TREBALO DA OVISE OD APSTRAKCIJA.
 	B. MODULI NE BI TREBALI OVISITI OD DETALJA. DETALJI BI TREBALI BITI OVISNI OD APSTRAKCIJA.
 
-U sluèaju e-Cinema Star, osnovna klasa Korisnik je apstraktna i ostale zavise od nje. Zbog toga je princip zadovoljen i sistem æe biti manje osjetljiv na promjene.
+U sluèaju e-Cinema Star, osnovna klasa Korisnik je apstraktna i ostale zavise od nje. 
+Zbog toga je princip zadovoljen i sistem æe biti manje osjetljiv na promjene.
 
 5. Princip izoliranja interfejsa ( eng. Interface Segregation Principle-ISP) glasi:
 	KLIJENTI NE TREBA DA OVISE O METODAMA KOJE NEÆE UPOTREBLJAVATI.
