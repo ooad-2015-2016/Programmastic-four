@@ -2,13 +2,16 @@
 	KLASA BI TREBALA IMATI SAMO JEDAN RAZLOG ZA PROMJENU.
 
 U projektu e-Cinema Star sve klase su odvojene, svaka ima odvojene zadatke i time se sprijeèavaju zavisne promjene unutar klasa. 
-Svaka klasa ima samo jedno zaduženje.
+Svaka klasa ima samo jedno zaduženje. Primjer za to može biti klasa Uposlenik. Ukoliko pokušamo izmjeniti klasu Uposlenik, 
+ta promjena neæe uticati na druge metode klase.
 
 
 2. Otvoreno zatvoren princip ( eng. Open Closed Principle-OCP) glasi:
 	ENTITETI SOFTVERA (KLASE, MODULI, FUNKCIJE) TREBALI BI BITI OTVORENI ZA NADOGRADNJU, ALI ZATVORENI ZA MODIFIKACIJE.
 
-Princip je zadovoljen, jer klase se mogu nadograditi bez modifikacije drugih klasa. 
+Princip je zadovoljen, jer klase se mogu nadograditi bez modifikacije drugih klasa. Primjer za to može biti klasa Student. 
+Ukoliko pokušamo nadograditi klasu Student, npr. želimo ubaciti studente doktorskog studija, to neæe uticati ni na 
+modifikaciju klase Student, niti drugih klasa u projektu. 
 
 
 3. Liskov princip zamjene (eng. Liskov Substitution Principle-LSP) glasi:
