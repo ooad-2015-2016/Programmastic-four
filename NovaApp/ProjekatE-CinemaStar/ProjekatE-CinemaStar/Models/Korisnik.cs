@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjekatE_CinemaStar.Models
 {
-    class Korisnik
+    abstract class Korisnik
     {
         string ime, prezime, korisnickoIme, mail, lozinka;
         DateTime datumRegistracije;
