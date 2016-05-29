@@ -1,18 +1,18 @@
 ﻿<Page
-    x:Class="ProjekatE_CinemaStar.Views.LoginKorisnika"
+    x:Class="ProjekatE_CinemaStar.Views.SignupKorisnika"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:ProjekatE_CinemaStar.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-   mc:Ignorable="d" Height="390" Width="760">
+    mc:Ignorable="d" Height="390" Width="760">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
-        <Image Source="/Assets/login.jpg" Height="Auto" Width="Auto" Stretch="UniformToFill" Grid.ColumnSpan="2" />
+        <Image Source="/Assets/signup.jpg" Height="Auto" Width="Auto" Stretch="UniformToFill" Grid.ColumnSpan="2" />
 
     </Grid>
 </Page>

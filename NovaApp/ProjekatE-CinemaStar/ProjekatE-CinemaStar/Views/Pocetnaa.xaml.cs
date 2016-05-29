@@ -20,21 +20,27 @@ namespace ProjekatE_CinemaStar.Views
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class RegistracijaKorisnika : Page
+    public sealed partial class Pocetnaa : Page
     {
-        public RegistracijaKorisnika()
+        public Pocetnaa()
         {
             this.InitializeComponent();
         }
 
-        private void textBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        private void buttonLogin_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(LoginKorisnika));
         }
 
-        private void textBlock1_SelectionChanged(object sender, RoutedEventArgs e)
+        private void buttonSignup_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(SignupKorisnika));
         }
+
+        private void buttonRepertoar_Click(object sender, RoutedEventArgs e)
+        {
+            //this.Frame.Navigate(typeof(OdabirFilma));
+        }
+
     }
 }

@@ -1,11 +1,11 @@
 ﻿<Page
-    x:Class="ProjekatE_CinemaStar.Početna"
+    x:Class="ProjekatE_CinemaStar.Views.Pocetnaa"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:ProjekatE_CinemaStar"
+    xmlns:local="using:ProjekatE_CinemaStar.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d" Height="707.826" Width="1581.449">
+    mc:Ignorable="d" Height="390" Width="760">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.ColumnDefinitions>
@@ -20,7 +20,7 @@
                 <TextBlock x:Name="textBlockOpis1" Text="Dobrodošli u svijet eCinema Star, online kina"
                        RelativePanel.Below="textBlockAutori" Foreground="Honeydew"  FontFamily="ComicSansMS" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" />
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                    <Button x:Name="LogiIn" Content="LogIn" Foreground="AntiqueWhite" HorizontalAlignment="Right" VerticalAlignment="Center" FontFamily="ComicSansMS" FontSize="20" Margin="0,20,50,0" FontWeight="Bold" Click="buttonLogin_Click" />
+                    <Button x:Name="LogIn" Content="LogIn" Foreground="AntiqueWhite" HorizontalAlignment="Right" VerticalAlignment="Center" FontFamily="ComicSansMS" FontSize="20" Margin="0,20,50,0" FontWeight="Bold" Click="buttonLogin_Click" />
                     <Button x:Name="SignUp" Content="SignUp" Foreground="AntiqueWhite" HorizontalAlignment="Left"  VerticalAlignment="Center" FontFamily="ComicSansMS" FontSize="20" Margin="50,20,0,0" FontWeight="Bold" Grid.Column="1" Click="buttonSignup_Click"/>
                 </StackPanel>
             </StackPanel>

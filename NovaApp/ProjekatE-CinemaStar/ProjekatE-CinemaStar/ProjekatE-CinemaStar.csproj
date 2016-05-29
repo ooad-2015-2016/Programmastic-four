@@ -115,8 +115,14 @@
     <Compile Include="Views\LoginKorisnika.xaml.cs">
       <DependentUpon>LoginKorisnika.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\RegistracijaKorisnika.xaml.cs">
-      <DependentUpon>RegistracijaKorisnika.xaml</DependentUpon>
+    <Compile Include="Views\Pocetnaa.xaml.cs">
+      <DependentUpon>Pocetnaa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SignupKorisnika.xaml.cs">
+      <DependentUpon>SignupKorisnika.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ZaKorisnika.xaml.cs">
+      <DependentUpon>ZaKorisnika.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -126,7 +132,10 @@
     <None Include="ProjekatE-CinemaStar_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\korisnicka.jpg" />
     <Content Include="Assets\login.jpg" />
+    <Content Include="Assets\narudzba.jpg" />
+    <Content Include="Assets\odabirsale.jpg" />
     <Content Include="Assets\pocetna.jpg" />
     <Content Include="Assets\signup.jpg" />
     <Content Include="Properties\Default.rd.xml" />
@@ -151,11 +160,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Početna.xaml">
+    <Page Include="Views\Pocetnaa.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\RegistracijaKorisnika.xaml">
+    <Page Include="Views\SignupKorisnika.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ZaKorisnika.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
