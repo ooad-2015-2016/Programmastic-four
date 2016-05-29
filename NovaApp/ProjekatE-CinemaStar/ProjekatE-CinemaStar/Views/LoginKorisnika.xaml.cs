@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjekatE_CinemaStar.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,6 +26,13 @@ namespace ProjekatE_CinemaStar.Views
         public LoginKorisnika()
         {
             this.InitializeComponent();
+        }
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+
+            LoginKorisnikaViewModel loginoginViewModel = e.Parameter as LoginKorisnikaViewModel;
+            DataContext = loginViewModel;
         }
     }
 }
