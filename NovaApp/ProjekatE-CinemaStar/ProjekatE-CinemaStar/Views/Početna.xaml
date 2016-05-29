@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="ProjekatE_CinemaStar.Početna"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjekatE_CinemaStar"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="707.826" Width="1581.449">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Image Source="/Assets/pocetna.jpg" Height="Auto" Width="Auto" Stretch="UniformToFill" Grid.ColumnSpan="2" Margin="0,1,0.333,-1" />
+        <RelativePanel Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0, 80, 0, 0" Width="640" Height="Auto">
+            <TextBlock x:Name="textBlockNaslov" Text="eCinema Star" FontSize="50" Foreground="AntiqueWhite"  FontFamily="ComicSansMS"  FontWeight="Bold" RelativePanel.AlignHorizontalCenterWithPanel="True" FontStretch="UltraExpanded" />
+            <TextBlock x:Name="textBlockAutori" Text="Sarajevo" Foreground="Beige" FontSize="34" RelativePanel.AlignRightWithPanel="True" RelativePanel.Below="textBlockNaslov" FontFamily="ComicSansMS"/>
+            <StackPanel  RelativePanel.Below="textBlockAutori" Margin="0,20,0,0" Width="640">
+                <TextBlock x:Name="textBlockOpis1" Text="Dobrodošli u svijet eCinema Star, online kina"
+                       RelativePanel.Below="textBlockAutori" Foreground="Honeydew"  FontFamily="ComicSansMS" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" />
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button x:Name="LogiIn" Content="LogIn" Foreground="AntiqueWhite" HorizontalAlignment="Right" VerticalAlignment="Center" FontFamily="ComicSansMS" FontSize="20" Margin="0,20,50,0" FontWeight="Bold" Click="buttonLogin_Click" />
+                    <Button x:Name="SignUp" Content="SignUp" Foreground="AntiqueWhite" HorizontalAlignment="Left"  VerticalAlignment="Center" FontFamily="ComicSansMS" FontSize="20" Margin="50,20,0,0" FontWeight="Bold" Grid.Column="1" Click="buttonSignup_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </RelativePanel>
+
+    </Grid>
+</Page>
