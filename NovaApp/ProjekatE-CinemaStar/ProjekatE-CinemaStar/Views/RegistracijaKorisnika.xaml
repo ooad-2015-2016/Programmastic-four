@@ -8,8 +8,12 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="-145,0,-104,10">
-        <Grid HorizontalAlignment="Left" Height="610" Margin="10,20,0,0" VerticalAlignment="Top" Width="599">
-            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="44" Margin="10,109,0,0" TextWrapping="Wrap" Text="Ime" VerticalAlignment="Top" Width="163" SelectionChanged="textBlock_SelectionChanged"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid HorizontalAlignment="Left" Height="610" Margin="10,0,0,0" VerticalAlignment="Top" Width="599" Grid.RowSpan="2">
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="48" Margin="18,105,0,0" TextWrapping="Wrap" Text="Ime" VerticalAlignment="Top" Width="145" SelectionChanged="textBlock_SelectionChanged" FontSize="15"/>
             <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,158,0,0" TextWrapping="Wrap" Text="Prezime" VerticalAlignment="Top"  SelectionChanged="textBlock1_SelectionChanged"/>
             <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="10,247,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
         </Grid>
