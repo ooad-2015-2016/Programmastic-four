@@ -101,7 +101,17 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Film.cs" />
+    <Compile Include="Models\Glumac.cs" />
+    <Compile Include="Models\KinoDvorana.cs" />
+    <Compile Include="Models\Korisnik.cs" />
+    <Compile Include="Models\Raspored.cs" />
+    <Compile Include="Models\RegistrovanoLice.cs" />
+    <Compile Include="Models\Rezervacija.cs" />
+    <Compile Include="Models\Uposlenik.cs" />
+    <Compile Include="Models\VrijemeProjekcije.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\LoginKorisnikaViewModel.cs" />
     <Compile Include="Views\LoginKorisnika.xaml.cs">
       <DependentUpon>LoginKorisnika.xaml</DependentUpon>
     </Compile>
