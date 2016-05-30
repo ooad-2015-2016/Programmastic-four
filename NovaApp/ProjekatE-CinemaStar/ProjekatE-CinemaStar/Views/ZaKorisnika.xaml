@@ -13,14 +13,18 @@
             <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
         <Image Source="/Assets/korisnicka.jpg" Height="Auto" Width="Auto" Stretch="UniformToFill" Grid.ColumnSpan="2" />
-        <TextBlock x:Name="textBlockIme" HorizontalAlignment="Left" Margin="378,65,0,0" TextWrapping="Wrap" Text="Ime" Foreground="White" FontSize="25" FontWeight="Bold" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <TextBlock x:Name="textBlockPrezime" HorizontalAlignment="Left" Margin="378,109,0,0" TextWrapping="Wrap" Text="Prezime" Foreground="White" FontSize="25" FontWeight="Bold" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <TextBlock x:Name="textBlockemail" HorizontalAlignment="Left" Margin="378,153,0,0" TextWrapping="Wrap" Text="e-mail" Foreground="White" FontSize="25" FontWeight="Bold" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <TextBlock x:Name="textBlockUsername" HorizontalAlignment="Left" Margin="378,197,0,0" TextWrapping="Wrap" Text="Username" Foreground="White" FontSize="25" FontWeight="Bold" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <TextBlock x:Name="textBlockPass" Grid.Column="1" HorizontalAlignment="Left" Margin="0,247,0,0" TextWrapping="Wrap" Text="Password" Foreground="White" FontSize="25" FontWeight="Bold" VerticalAlignment="Top"/>
-        <RadioButton x:Name="radioButtonDa" Content="DA" HorizontalAlignment="Left" Margin="378,334,0,0" Foreground="White" FontSize="20" FontWeight="Bold" VerticalAlignment="Top" Height="28" RenderTransformOrigin="0.5,0.5" Width="74" Grid.ColumnSpan="2">
-        
-        </RadioButton>
+        <DatePicker HorizontalAlignment="Left" Margin="74,161,0,0" VerticalAlignment="Top" Foreground="White" FontSize="20" FontWeight="Bold" Grid.Column="1"/>
+        <Image x:Name="image" Source="/Assets/1.jpg" HorizontalAlignment="Left" Height="100" Margin="43,94,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="13,32,0,0" TextWrapping="Wrap" FontSize="25" Foreground="White" FontWeight="Bold" Text="Dobro došao" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="115,112,-14,0" TextWrapping="Wrap" FontSize="25" Foreground="White" FontWeight="Bold" Text="Termini prikazivanja" VerticalAlignment="Top" Height="35" Width="279" Grid.Column="1"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="95,59,0,0" VerticalAlignment="Top" Width="269" Grid.Column="1"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="131,12,0,0" TextWrapping="Wrap" FontSize="25" Foreground="White" FontWeight="Bold" Text="Filmovi u ponudi" VerticalAlignment="Top" Grid.Column="1"/>
+        <TextBlock x:Name="textBlock3" Grid.Column="1" HorizontalAlignment="Left" Margin="68,226,0,0" TextWrapping="Wrap" FontSize="25" Foreground="White" FontWeight="Bold" Text="Želite li rezervisati kartu?" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton" Content="DA" Grid.Column="1" HorizontalAlignment="Left" Margin="114,267,0,0" VerticalAlignment="Top" FontSize="20" Foreground="White" FontWeight="Bold"/>
+        <RadioButton x:Name="radioButton1" Content="NE" Grid.Column="1" HorizontalAlignment="Left" Margin="244,266,0,0" VerticalAlignment="Top" FontSize="20" Foreground="White" FontWeight="Bold"/>
+        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="25,293,0,0" VerticalAlignment="Top" Width="189"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="13,245,0,0" TextWrapping="Wrap" FontSize="25" Foreground="White" FontWeight="Bold" Text="Pregledani filmovi" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Odaberi mjesto" Grid.Column="1" HorizontalAlignment="Left" Margin="131,314,0,0" VerticalAlignment="Top" FontSize="25" Foreground="Blue" Background="White" FontWeight="Bold"/>
 
     </Grid>
 </Page>

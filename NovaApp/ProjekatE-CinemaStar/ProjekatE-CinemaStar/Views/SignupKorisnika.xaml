@@ -13,6 +13,22 @@
             <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
         <Image Source="/Assets/signup.jpg" Height="Auto" Width="Auto" Stretch="UniformToFill" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="75,60,0,0" TextWrapping="Wrap" FontSize="20" Foreground="White" FontWeight="Bold" Text="Ime" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="75,100,0,0" TextWrapping="Wrap" FontSize="20" Foreground="White" FontWeight="Bold" Text="Prezime" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="75,136,0,0" TextWrapping="Wrap" FontSize="20" Foreground="White" FontWeight="Bold" Text="e-mail" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="75,175,0,0" TextWrapping="Wrap" FontSize="20" Foreground="White" FontWeight="Bold" Text="Username" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="75,216,0,0" TextWrapping="Wrap" FontSize="20" Foreground="White" FontWeight="Bold" Text="Password" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="75,257,0,0" TextWrapping="Wrap" FontSize="20" Foreground="White" FontWeight="Bold" Text="Da li ste student?" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton" Content="DA" HorizontalAlignment="Left" Margin="75,288,0,0" FontSize="20" Foreground="White" FontWeight="Bold" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton1" Content="NE" HorizontalAlignment="Left" Margin="75,325,0,0" FontSize="20" Foreground="White" FontWeight="Bold" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="236,58,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134"/>
+        <RelativePanel HorizontalAlignment="Left" Height="318" Margin="75,10,0,0" VerticalAlignment="Top" Width="295"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="236,98,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="236,135,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Margin="236,175,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Margin="236,215,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134"/>
+        <Button x:Name="button" Content="SignUp" HorizontalAlignment="Left" Margin="60,298,0,0" VerticalAlignment="Top" Height="46" Width="146" FontSize="25" Foreground="Blue" Background="White" FontWeight="Bold" Grid.Column="1"/>
+
 
     </Grid>
 </Page>

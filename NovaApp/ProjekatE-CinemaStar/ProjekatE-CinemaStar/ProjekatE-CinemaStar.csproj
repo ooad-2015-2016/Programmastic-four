@@ -132,6 +132,7 @@
     <None Include="ProjekatE-CinemaStar_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\1.jpg" />
     <Content Include="Assets\korisnicka.jpg" />
     <Content Include="Assets\login.jpg" />
     <Content Include="Assets\narudzba.jpg" />
