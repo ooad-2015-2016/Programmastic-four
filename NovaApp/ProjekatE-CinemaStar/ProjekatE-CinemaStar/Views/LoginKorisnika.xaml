@@ -13,6 +13,11 @@
             <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
         <Image Source="/Assets/login.jpg" Height="Auto" Width="Auto" Stretch="UniformToFill" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="textBlockIme" HorizontalAlignment="Left" FontSize="20" Margin="0,41,0,0" TextWrapping="Wrap" FontWeight="Bold" Text="Username/Mail" VerticalAlignment="Top" Width="169" Foreground="White" SelectionHighlightColor="#FF8B1786" Height="30" Grid.Column="1"/>
+        <TextBox x:Name="textBoxIme" HorizontalAlignment="Left" Margin="222,38,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Grid.Column="1" Width="148"/>
+        <TextBox x:Name="textBoxPass" Grid.Column="1" HorizontalAlignment="Left" Margin="222,120,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="148"/>
+        <TextBlock x:Name="textBlockPass" Grid.Column="1" HorizontalAlignment="Left" FontSize="20" Margin="0,123,0,0" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="LogIn" Grid.Column="1" HorizontalAlignment="Left" Margin="105,227,0,0" VerticalAlignment="Top" Height="47" Width="148" FontSize="25" Foreground="Blue" Background="White" FontWeight="Bold"/>
 
     </Grid>
 </Page>
