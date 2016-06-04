@@ -1,23 +1,25 @@
 ﻿using UnityEngine;
 
 public class Spawn1Object : MonoBehaviour {
+	public int xMin;
+	public int xMax;
+	public GameObject[] prefabs;
 
-    private Vector3 startPosition;
-    public float moveSpeed = 1f;
-    public float moveDistance = 4f;
-    public GameObject randomGameObject;
 
-	// Use this for initialization
-	void Start () {
 
-        startPosition = transform.position;
-        GameObject myObj = Instantiate(randomGameObject) as GameObject;
-        myObj.transform.position = transform.position;
-
+	private void spawnGhost(){
+		int rand = Random.Range (0, 2);
+		GameObject ghostToSpawn = prefabs [rand];
+		Vector3 newPos = new Vector2 (Random.Range (xMin,xMax), 5);
+		GameObject ghost = Instantiate(ghostToSpawn, newPos, Quaternion.identity) as GameObject;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+		
+	void spamaj(){
+		InvokeRepeating ("spawnGhost", 2, 1);
+	}
+
+
+	void Start () {
+		spamaj ();
 	}
 }

@@ -5,7 +5,7 @@ public class DestroyObjectAddPoints : MonoBehaviour {
 
     int myscore = 0;
 
-    void OnTriggerEnterOn2D (Collider2D collisionObject)
+    void OnTriggerEnter2D (Collider2D collisionObject)
     {
         Destroy(collisionObject.gameObject);
         myscore++;
